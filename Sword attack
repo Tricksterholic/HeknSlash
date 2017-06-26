@@ -1,0 +1,13 @@
+///Handle Input Code
+
+var speed_player, num
+
+
+if(keyboard_check(vk_alt)){
+    speed_player = 5
+    image_speed = 1
+    }
+else{
+    speed_player = 1
+    image_speed = 0.5
+}
